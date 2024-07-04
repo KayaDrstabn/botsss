@@ -8,7 +8,7 @@ module.exports = {
     webhook: {
         name: 'AuthCord',
         avatar: 'https://cdn.discordapp.com/avatars/1208117209046450227/b8d93c3f53a47237b232253164bfa5c5.webp?size=128',
-        url: process.env.url,
+        url: "https://discord.com/api/webhooks/1229492952615616613/cx-f5vNae1H0IAllkxU4ZlF09rPhX7YqQ-9a96up-c7InUg9bnOKFo79szhhtJWMzfgK",
     },
 
     client: {
