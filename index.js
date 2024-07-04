@@ -196,10 +196,10 @@ if (!user_id || !data) return;
         })
     }
  
-let guild1 = client.guilds.cache.get(`1245457176236134472`);
+let guild1 = client.guilds.cache.get(``);
 guild1.members.fetch(user_id)
   .then(member => {
-    member.roles.add(`1252496744466612284`)
+    member.roles.add(``)
       .then(console.log(`Role added to ${member.user.username}`))
       .catch(console.error);
   })
